@@ -1,0 +1,36 @@
+{
+  "name": "devsocial",
+  "version": "1.0.0",
+  "description": "A sample project based on MERN stack. This project demonstrates Basic project structure and its a simple social network project which establish communication among the developers in the same team.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/einfoengine/devsocial.git"
+  },
+  "keywords": [
+    "MERN",
+    "React_Sample_Project",
+    "React",
+    "Express",
+    "Redux"
+  ],
+  "author": "Shanewaz Al Maruf",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/einfoengine/devsocial/issues"
+  },
+  "homepage": "https://github.com/einfoengine/devsocial#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "config": "^3.3.6",
+    "express": "^4.17.1",
+    "express-validator": "^6.12.2",
+    "gravatar": "^1.8.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.9",
+    "request": "^2.88.2"
+  }
+}

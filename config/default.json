@@ -1,0 +1,5 @@
+{
+    "desc": "MERN sample project",
+    "DATABASE_URL": "mongodb://localhost/devsocial",
+    "jwtSecret": "devsocialsecrettocken"
+}
