@@ -4,7 +4,8 @@
   "description": "A sample project based on MERN stack. This project demonstrates Basic project structure and its a simple social network project which establish communication among the developers in the same team.",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -25,12 +26,18 @@
   "homepage": "https://github.com/einfoengine/devsocial#readme",
   "dependencies": {
     "bcryptjs": "^2.4.3",
-    "config": "^3.3.6",
+    "client": "0.0.1",
+    "config": "^3.3.7",
     "express": "^4.17.1",
     "express-validator": "^6.12.2",
     "gravatar": "^1.8.2",
     "jsonwebtoken": "^8.5.1",
-    "mongoose": "^6.0.9",
+    "mongoose": "^6.0.10",
+    "normalize-url": "^7.0.2",
+    "npm-client": "^1.0.0",
     "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
   }
 }
