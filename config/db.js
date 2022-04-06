@@ -10,9 +10,11 @@ const connectDB = async () => {
             useNewUrlParser: true, 
             useUnifiedTopology: true
         });
+        console.log('********** DB - YES **********');
     } catch (err) {
         console.log('500 Error!, rejection - connection failure!', err.message);
         process.exit(1);
+        console.log('********** DB - NO **********');
     }
 }
 
